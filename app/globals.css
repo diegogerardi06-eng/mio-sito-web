@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
+body { margin: 0; background: #f8f9f5; color: #18251e; font-family: Arial, Helvetica, sans-serif; }
+::selection { background: #d5eea2; color: #18251e; }
+a, summary { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid #42672b; outline-offset: 5px; }
+.hero-art { background: radial-gradient(ellipse at 70% 25%, #d9eab5 0, #8ba982 38%, #456451 75%); }
+.orb { background: radial-gradient(circle at 30% 25%, #f4ffd9 0%, #b4d583 38%, #60813f 72%, #334b2c 100%); box-shadow: 20px 28px 50px #21392a55, inset -12px -12px 35px #344c2d44; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
