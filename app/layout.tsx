@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Forma — Idee chiare, esperienze straordinarie",
-  description: "Uno studio digitale dimostrativo: strategia, design e sviluppo per dare forma alla tua prossima idea.",
+  title: "Verde — Il futuro è nella nostra natura",
+  description: "Sole, vento e acqua: un piccolo spazio per scoprire le energie rinnovabili e immaginare un futuro più verde.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
